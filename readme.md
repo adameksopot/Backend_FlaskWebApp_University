@@ -3,21 +3,19 @@
 - Node 8.0+
 - npm 
 - git 
-
 - firebase-tools `npm install -g firebase-tools `
 
 ##### clone my repo
 `git clone https://github.com/adameksopot/BackendQuizPython.git ` 
- 
-#### get into folder
+ ##### get into folder
 `cd ./BackendQuizPython/functions`
-### install dependency
+##### install dependency
 `npm install `
-#### init database
+##### init database
 ```firebase init``` 
-### login
+##### login
 `firebase  login` 
-###  start only functions
+#####  start only functions
 `firebase emulators:start --only functions`
-### deployment
+##### deployment
 `firebase deploy`
