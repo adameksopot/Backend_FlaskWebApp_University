@@ -6,18 +6,18 @@
 
 - firebase-tools `npm install -g firebase-tools `
 
-##### sklonuj repozytorium 
+##### clone my repo
 `git clone https://github.com/adameksopot/BackendQuizPython.git ` 
  
-#### wejscie do folderu
+#### get into folder
 `cd ./BackendQuizPython/functions`
-### instalowanie zaleznosci funkcji/serwera 
+### install dependency
 `npm install `
-#### inicjowanie bazy danych
+#### init database
 ```firebase init``` 
-### logowanie do platformy 
+### login
 `firebase  login` 
-###  uruchomienie funkcji lokalnie
+###  start only functions
 `firebase emulators:start --only functions`
 ### deployment
 `firebase deploy`
